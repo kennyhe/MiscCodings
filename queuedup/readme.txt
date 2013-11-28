@@ -1,5 +1,4 @@
-Candiate Name: Shouchun He    Email: she@scu.edu, he.scu2013@gmail.com   Phone: (408)310-0723   LinkedIn profile: http://www.linkedin.com/in/kennyhe2002/
-
+This is a solution to an interview question.
 
 Solution for the "Add Queue Up" problem
 
