@@ -1,4 +1,4 @@
-Content Addressable Network (CAN) Simulation
+#Content Addressable Network (CAN) Simulation
 
 A Java implemention of content addressable network (CAN) for cloud computing, using p2p with network proximity.
 
