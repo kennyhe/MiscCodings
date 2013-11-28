@@ -1,0 +1,18 @@
+add joe
+add amy
+add bill
+add zoe
+next
+next
+remove bill
+next
+add james
+next
+add mary
+add jill
+add bob
+next
+add rob
+remove bob
+next
+next
