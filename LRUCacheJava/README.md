@@ -6,13 +6,11 @@
 This short program simulate an LRU cache. It's response to an interview challenge homework.
 
 There are several ways to implement LRU. 
-###Solution 1
-In the CACHE system, all the cache elements are physically adjacent in a consecutive memory. So people always use lots of bits for each Cache element to track the recent usage status. Whenever there is an access, right shift the bits. And always replace the element with smallest bits.
+###Approach 1
+In the CACHE system, all the cache elements are physically adjacent in a consecutive memory. So people always use lots of bits for each Cache element to track the recent usage status. Whenever there is an access, right shift the bits. And always replace the element with smallest bits. Some solutions in the "other solutions" folder take this approach.
 
-###Solution 2
-For simulation purpose only: To store the Cache elements in a linked list. When a cache element is accessed, move it to the head of the list; when replace happens, always replace the element at the rear of the list and move the element to the head.
-
-This solution is much better in performance.
+###Approach 2
+For simulation purpose only: To store the Cache elements in a linked list. When a cache element is accessed, move it to the head of the list; when replace happens, always replace the element at the rear of the list and move the element to the head. This solution is much better in performance, and my final solution takes this approach.
 
 ## Element fetching
 By the way, for quick fetching the relative value in the cache by the key, all the cache elements should be logically arranged in a quick indexing system, such as: A binary tree, a hashmap, etc. When the elements are added or replaced, such binary tree or hashmap also need to be updated.
