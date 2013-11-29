@@ -1,3 +1,5 @@
+#LRU Cache simulation (C code)
+
 This short program simulate an LRU cache. It's response to an interview challenge homework.
 
 Need to consider the performance issue.
@@ -30,4 +32,5 @@ javac TestCase.java
 To run:
 java TestCase &gt; test_data_file_name
 
-Then open the test_data_file, check how many commands in the file, and put the count of rows in the first line.
+Then open the test_data_file, check how many commands in the file, 
+and put the count of rows in the first line.
