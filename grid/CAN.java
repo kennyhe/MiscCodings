@@ -2,7 +2,7 @@ import java.util.ArrayList;
 import java.util.Scanner;
 
 
-public class P1 {
+public class CAN {
 
 	/**
 	 * @param args
