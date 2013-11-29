@@ -19,3 +19,15 @@ GET <key>  # get the <value> if it's in the cache, else return NULL. It will use
 PEEK <key> # get the <value> but do not use the cache element.
 
 DUMP # print the contents in the cache
+
+##Test case generator
+The TestCase.java is a test case generator for this program.
+
+<pre>
+To compile:
+javac TestCase.java
+
+To run:
+java TestCase &gt; test_data_file_name
+
+Then open the test_data_file, check how many commands in the file, and put the count of rows in the first line.
