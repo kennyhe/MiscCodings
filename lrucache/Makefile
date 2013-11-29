@@ -1,7 +1,5 @@
-all: lru Solution.class
+all: lru
 lru: lrucache.c
-	gcc -O2 -o lru lrucache.c
-Solution.class: Solution.java
-	javac Solution.java
+	gcc -g -o lru lrucache.c
 clean:
 	rm -f lru
