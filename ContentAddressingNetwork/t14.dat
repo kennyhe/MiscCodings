@@ -1,0 +1,62 @@
+# the test on P2P handout
+dimension 3
+addNode(0.3, 0.25,  0.342);
+addNode(0.4, 0.8,  0.09821);
+addNode(0.7, 0.1,  0.517433);
+addNode(0.96473, 0.41321,  0.07813);
+addNode(0.3, 0.8852854408,  0.8892814596);
+addNode(0.432, 0.3424352808,  0.5757);
+addNode(0.756, 0.7430678173,  0.97673);
+addNode(0.6528, 0.1895160242,  0.711);
+addNode(0.318, 0.796422455,  0.185);
+addNode(0.542, 0.6804057052,  0.134);
+removeNode(0.7, 0.6927406318,  0.1);
+insertItem(0.2, 0.8214689335, 0.7, "Listen to the music");
+find(0.3, 0.1476408015, 0.25, "Listen to the music");
+deleteItem(0.2, 0.8738750536, 0.7, "Listen to the music");
+find(0.9, 0.7421731101, 0.1, "Listen to the music");
+insertItem(0.2, 0.713493655, 0.7, "My heart will go on");
+insertItem(0.2, 0.2024122463, 0.7, "Secret garden");
+insertItem(0.2, 0.8874955922, 0.7, "Love me");
+insertItem(0.2, 0.7941527311, 0.7, "Back street boys");
+insertItem(0.2, 0.2053137426, 0.7, "Steal my heart");
+insertItem(0.2, 0.7927762726, 0.7, "Right here waiting");
+insertItem(0.2, 0.9780463087, 0.7, "Love me tender");
+insertItem(0.2, 0.7754929396, 0.7, "Love me tder");
+insertItem(0.2, 0.555743143, 0.7, "Kenny He");
+insertItem(0.2, 0.858598859, 0.7, "Kenny G.");
+insertItem(0.2, 0.6262264797, 0.7, "mingwang2");
+insertItem(0.2, 0.5307809827, 0.7, "a");
+insertItem(0.2, 0.3360348437, 0.7, "Warburton");
+
+deleteItem(0.2, 0.8026840822, 0.7, "Steal");
+deleteItem(0.2, 0.7754929396, 0.7, "Love me tender");
+deleteItem(0.2, 0.7754929396, 0.7, "Love me tder");
+deleteItem(0.2, 0.1340414765, 0.7, "KennG");
+deleteItem(0.2, 0.0915946783, 0.7, "Kenny He");
+deleteItem(0.2, 0.4581781132, 0.7, "Listen to the music");
+deleteItem(0.2, 0.7853350225, 0.7, "Secret Garden");
+deleteItem(0.2, 0.2329848357, 0.7, "a");
+
+addNode(0.84, 0.5383977885,  0.978);
+addNode(0.4532, 0.9098153249,  0.9851);
+addNode(0.5143, 0.5616051988,  0.5432);
+addNode(0.96473, 0.0941409315,  0.41321);
+addNode(0.432, 0.0773776583,  0.1324);
+addNode(0.0981, 0.4202040578,  0.515);
+addNode(0.6, 0.4463065299,  0.9);
+addNode(0.9, 0.7036041385,  0.375);
+
+find(0.2, 0.9770875126, 0.7, "My heart will go on");
+find(0.2, 0.0225712503, 0.7, "Secret garden");
+find(0.2, 0.2952434663, 0.7, "Love me");
+find(0.2, 0.3293374288, 0.7, "Back street boys");
+find(0.2, 0.2858308726, 0.7, "Steal my heart");
+find(0.2, 0.7789191115, 0.7, "Right here waiting");
+find(0.2, 0.132021511, 0.7, "Love me tender");
+find(0.2, 0.4229655485, 0.7, "Kenny He");
+find(0.2, 0.5544120516, 0.7, "Kenny G.");
+find(0.2, 0.6768787033, 0.7, "mingwang2");
+find(0.2, 0.557007025, 0.7, "a");
+find(0.2, 0.0433986462, 0.7, "Warburton");
+
