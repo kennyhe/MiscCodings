@@ -51,7 +51,7 @@ PEEK <key> # get the <value> but do not use the cache element.
 
 DUMP # print the contents in the cache in the alphabet order of the keys
 
-### Ambiguous of the requirements
+### Ambiguity of the original requirements
 1. The requirements did not say whether the keys should be case sensitive or not, when comparing and dumping. In my implementation, I control it with MACRO so the user can complile for different options.
 2. It also not say how to handle the SET when the <key> exists. Replacing, or simply ignore? Here I assume it's replacing.
 3. It did not say whether the SET operation is treated as a USE. I also use MACRO to control the options.
