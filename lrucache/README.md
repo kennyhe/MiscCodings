@@ -1,5 +1,10 @@
 #LRU Cache simulation (C code)
 
+
+##WARNING: This code piece is a response to a job interview challenge homework.
+##If you are going to response that challenge, please STOP reading anything in this project and DO IT YOURSELF!!! Reading my code and ideas may help you pass this round of code challenge but you may not really benefit from it!
+
+
 This short program simulate an LRU cache. It's response to an interview challenge homework.
 
 Need to consider the performance issue.
