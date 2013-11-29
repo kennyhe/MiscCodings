@@ -12,5 +12,5 @@ The most difficult part of this program is about how to split the regions into t
 <pre>make
 java CAN
 or
-java CAN < input data file
+java CAN &lt; input data file
 </pre>
